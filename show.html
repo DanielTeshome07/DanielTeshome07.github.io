@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my portfolio! Here you can find some of my projects and work experience.</p>
+        <h2>Projects</h2>
+        <ul>
+            <li><h3>Project 1: GPU Cloud Platform (JupyterHub)</h3>
+
+              <p> I built a GPU cloud platform that enables users to access high-performance GPU resources for machine learning and data science workloads through a user-friendly JupyterHub interface. The platform is designed to support users of all skill levels, providing a seamless browser-based experience for developing, training, and experimenting with AI models.
+
+                 The system is deployed using Kubernetes and Docker, where each user is provisioned an isolated notebook environment with dedicated GPU resources, resource limits, and persistent storage to ensure fair usage and data retention across sessions. I implemented Google OAuth authentication to securely manage user login and identity verification, complemented by a custom user survey workflow.
+
+                 I designed and built custom Docker images preloaded with Python, PyTorch, TensorFlow, CUDA, and essential data science libraries, publishing them to Docker Hub and integrating them into the JupyterHub deployment. Kubernetes manages pod lifecycle, GPU allocation, and persistent volumes, allowing user work to be automatically saved even after sessions are terminated.
+
+                 This project deepened my hands-on experience with Kubernetes orchestration, containerized GPU workloads, JupyterHub multi-tenancy, and cloud-native system design, while emphasizing usability, security, and scalability in a real-world ML infrastructure environment.
+                 <br>
+                 <br>
+
+                 <image src="1.png" alt="Public GPU Cloud" width = "1000" height = "600"></image>
+               </p>
+                
+              <hr>
+            </li>
+
+            
+
+
+
+            <li><h3> Vehicle Detection and Counting </h3>
+                <p> I developed a computer vision system for vehicle detection and counting using YOLOv5, a state-of-the-art object detection model.
+                     The system processes video feeds from traffic cameras to identify and count vehicles in real-time, providing valuable insights for traffic management and urban planning.
+
+                    The implementation involved training the YOLOv5 model on a custom dataset of annotated traffic images, optimizing it for accuracy and speed. I utilized Python and OpenCV to handle video processing, frame extraction, and post-processing of detection results. The system outputs real-time counts of different vehicle types (cars, trucks, motorcycles) and can be deployed on edge devices for on-site traffic monitoring.
+                </p>
+                <video width="1000" height="600" controls>
+                <source src="2.mp4" type="video/mp4" alt="Vehicle Detection and Counting Video">
+                Your browser does not support the video tag.</video>
+              <br>
+              <br>
+              <hr>
+            </li>
+           <li><h3> Model Rockets</h3>
+             <p> I designed and built model rockets for a high school aerospace engineering club. The project involved applying principles of aerodynamics, propulsion, and materials science to construct and test model rockets. 
+                 I  was responsible for designing the rocket's structure, selecting appropriate materials, and conducting flight tests to evaluate performance. The experience deepened my understanding of aerospace engineering fundamentals and reinforced my passion for building and testing complex systems.
+                 I designed a custom circuit board that integrated an Arduino Nano microcontroller and a Bluetooth transceiver. The system included a countdown timer starting from 15 seconds and a buzzer to alert users to clear the area before launch. I also developed a smartphone app to serve as the remote control interface, making the system more user-friendly. Throughout the process, I tested the system rigorously to ensure it worked as intended and addressed any technical challenges, such as signal interference and power management.
+                 Result:
+              
+             </p>
+
+            </li>
+              <br>
+
+        </ul>
+
+
+    
+    
+</body>
+</html>
